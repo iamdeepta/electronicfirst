@@ -33,3 +33,18 @@
     @content;
   }
 }
+@mixin xl {
+  @media (min-width: 1870px) and (max-width: 2199px) {
+    @content;
+  }
+}
+@mixin xxl {
+  @media (min-width: 2200px) and (max-width: 2400px) {
+    @content;
+  }
+}
+@mixin xxxl {
+  @media (min-width: 2401px) and (max-width: 3000px) {
+    @content;
+  }
+}
